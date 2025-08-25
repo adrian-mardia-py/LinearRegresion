@@ -22,7 +22,7 @@ This can be consider as a side project in my AI learning path.
 - numpy
 - matplotlib
 - numba (with CUDA support for GPU execution)
-# For GPU support, make sure you have CUDA installed and a compatible NVIDIA driver
+For GPU support, make sure you have CUDA installed and a compatible NVIDIA driver
 
 You can install the dependencies manually:
 
