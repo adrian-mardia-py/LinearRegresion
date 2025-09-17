@@ -3,7 +3,10 @@
 Implementation of a **scikit-learn-like linear regression model** with CPU and GPU support.
 
 This model has been built **from scratch**, inspired by `sklearn.linear_model`.  
-It is trained using **batch gradient descent**, either on **CPU** or **GPU** (depending on the user’s choice).  
+It is trained using **batch gradient descent**, either on **CPU** or **GPU** (depending on the user’s choice).
+
+The GPU method uses @cuda.jit that is the most comparable thing to actually make the .cu file, as you can see it remarks the
+use of the blocks and grid syntaxis similar to C++, it uses cuda.atomic.add in stead of using atomic variables, but mainly the same
 
 It includes the following methods:
 - `fit`
